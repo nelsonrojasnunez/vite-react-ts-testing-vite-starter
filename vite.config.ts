@@ -9,6 +9,6 @@ export default defineConfig({
     environment: "jsdom",
     // hey! over here
     globals: true,
-    setupFiles: "./tests/setup.ts", // assuming the test folder is in the root of our project
+    setupFiles: "./tests/setup.js", // assuming the test folder is in the root of our project
   },
 });
